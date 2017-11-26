@@ -1,25 +1,10 @@
-/* Using an id attribute on <body> to override bootstrap... hacky. */
-/* Individual elements */
 body#alexanian-body {
-  background-color: #d97620;
+  font-family: 'VT323', monospace;
+  text-transform: uppercase;
+}
+body#alexanian-body  h1 {
+  font-size: 30px;
 }
 #alexanian-body .jumbotron {
   background-color: rgba(255,255,255,0.7);
-}
-#alexanian-body h1, #alexanian-body h3 {
-  font-family: 'Lobster Two';
-}
-#alexanian-body h1 {
-  text-shadow: 2px 0px #d97620;
-}
-/* Helper class */
-.voffset20 {
-  margin-top: 20px;
-}
-.icon {
-  padding: 0px 10px;
-}
-#footer-links a {
-  font-size: 1.2em; 
-  color: #000000;
 }
