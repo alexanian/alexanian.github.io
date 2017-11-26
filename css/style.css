@@ -1,5 +1,6 @@
 body#alexanian-body {
   font-family: 'VT323', monospace;
+  font-size: 18px;
   text-transform: uppercase;
 }
 body#alexanian-body  h1 {
@@ -7,4 +8,23 @@ body#alexanian-body  h1 {
 }
 #alexanian-body .jumbotron {
   background-color: rgba(255,255,255,0.7);
+}
+#alexanian-body a {
+  color: inherit;
+}
+#alexanian-body a:hover {
+  text-decoration: none;
+  border-bottom: 2px dotted;
+}
+
+#alexanian-body .body-text a {
+  color: rgb(130, 130, 130);
+}
+
+#alexanian-body .body-text a:hover {
+  color: inherit;
+}
+
+#alexanian-body .no-bottom-padding {
+  padding-bottom: 0px;
 }
