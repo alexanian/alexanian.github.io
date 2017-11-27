@@ -23,11 +23,15 @@
       </div>
     </footer>
     
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="./js/SwapThingsILike.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script defer src="./js/SwapThingsILike.js"></script>
     <script>
-        $(function() {
-            SwapThingsILike.init();
+        window.addEventListener('DOMContentLoaded', function() {
+            (function($) {
+                $(document).ready(function() {
+                    SwapThingsILike.init();
+                });
+            })(jQuery);
         });
     </script>
   </body>
