@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/tessa
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tessa.fyi
+  * I am tessa (https://keybase.io/tessa) on keybase.
+  * I have a public key with fingerprint 90B2 67D8 D87B 4525 59B6  30F5 DE7F 9529 3FCF 9BE8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b2d381f7ae868ac121c97de46e3313d3498483adbe2e967655f30d55d1f9b44c0a",
+      "fingerprint": "90b267d8d87b452559b630f5de7f95293fcf9be8",
+      "host": "keybase.io",
+      "key_id": "de7f95293fcf9be8",
+      "kid": "0101b2d381f7ae868ac121c97de46e3313d3498483adbe2e967655f30d55d1f9b44c0a",
+      "uid": "fefd803478453a08192966a3e9f16019",
+      "username": "tessa"
+    },
+    "service": {
+      "hostname": "tessa.fyi",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1511760245,
+  "expire_in": 157680000,
+  "prev": "0f956036e130a5860d28bd2a89f91a56716fda2cf8c1466511045485f1bb0bd5",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJbSBRRGF7LwrabUGxQbNKoUGE2Z2bOmTML9ZAVbBe7R1mynJlzRqfd
+drad0bQUDCHswmKBZYGI9RAaZUUQFKVdlSIMqYeSLKUMCqIeYoWuZ6Sghx47L4fz
+n+/7/u//+O9NHe/zZ/Sf2hSvvNoRyHh0u7HCVzKnrWK/oNu0WgjtF6Js7GIxyhw3
+ErWoEBJEIAJdojIGpkoYRpgYQAKGplKmICbLQKayomEFy4TqTGIaUhGEpixSCCkw
+NV1RDJEIBYJpxctYMpG04i6X1URdQirFFKu6AiUINR3JogkpU00NSppsGpzLMCeW
+247H4OZ04rBCy+Y1/oiM2fsH/j/7rhiTM5lJsSgrKlagTEQMNElDiMhMMwESgeYB
+HZaMk92Mo13mOESoLRB4qdIymJeqN8bf34VmtcVZiaTt2oYd4+Vy102EPJZbnfBg
+e5ke+S0Q0a045QFyQiVLOpYdF0KAIw3X8hQBBEBFoqTAAoFVJawki1geAqoIi/x4
+bVillwoPC4kyYkAWCcRIpBLWqUSwZmqAQKQCZFIiGSY2gIIQlxUVqGBoAl0XdQoF
+b6Q9cVsIIW6TlHFJxyqLE7ciyYTaO907M30Zft/ECeO8xfL5J2X/WbfSRVm+1KLd
+zsW+sPW2Jph61ZQqiC0MN6ab01WrtoQ763FeJGdgJKth763Ch5feTR4RBqyuFj2/
+49jNSM+0wx9iy4/UbG2wriVmjy7zt2f5pY01r+ZPT6d9AfLpfnBf+qS/OZas+/zy
+SXfRjOfNz/Kn5eU+7Hw+5YV95cuV1veJ0Wsz+3bMC989fya/oXfb9ws597I/96xd
+aVet6QDRU6+nRIMPhoLBp6C48GtefXnfjyPUX3d8bun2dPGb0V2pC6tP3lk33LR0
+eLB08HE/Pke6brVsyKxpu7Gr/cTlFWd/Tho4ujkRWL8q97RsXBw6+O1LoO36ghG9
+6KPdOqv3Zv+lpsXFS0oOHfgFwMc/Jg==
+=+h2e
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tessa
+
+==================================================================
