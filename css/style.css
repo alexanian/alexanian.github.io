@@ -30,3 +30,7 @@ a:hover {
 .no-bottom-padding {
   padding-bottom: 0px;
 }
+
+.no-fouc {
+  display: none;
+}
