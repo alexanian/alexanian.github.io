@@ -9,6 +9,7 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
   </head>
   
   <body id="alexanian-body">
@@ -28,21 +29,10 @@
     <script defer src="./js/SwapThingsILike.js"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script type="text/javascript">
-        // If user disables javascript, content will still appear
-        document.documentElement.className = 'no-fouc';
-
         // Won't execute until deferred scripts above are loaded
         window.addEventListener('DOMContentLoaded', function() {
             (function($) {
                 $(document).ready(function() {                
-                      WebFont.load({
-                        google: {
-                          families: ['VT323']
-                        }
-                      });
-                      
-                      $('.no-fouc').removeClass('no-fouc');
-
                     SwapThingsILike.init();
                 });
             })(jQuery);
