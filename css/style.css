@@ -2,13 +2,19 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1, h2, h3, .links-list {
+h1, h2, h3, .links-list, .links-list a {
   font-family: 'VT323', monospace;
+  font-weight: normal;
   text-transform: uppercase;
 }
 
 h1 {
   font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .links-list {
@@ -17,20 +23,40 @@ h1 {
 
 .jumbotron {
   background-color: rgba(255,255,255,0.7);
+  padding-bottom: 0px;
 }
+
 a {
   color: rgb(130, 130, 130);
+  font-weight: bold;
 }
+
 a:hover {
   color: inherit;
   text-decoration: none;
   border-bottom: 2px dotted;
 }
 
-.no-bottom-padding {
-  padding-bottom: 0px;
+a.category-bio:hover {
+  color: #036303;
+}
+
+a.category-ea:hover {
+  color: #0c869b;
+}
+
+a.category-eng:hover {
+  color: #721a60;
 }
 
 .no-fouc {
   display: none;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul ul {
+  font-size: 0.9em;
 }
