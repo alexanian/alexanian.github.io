@@ -37,26 +37,32 @@ a:hover {
   border-bottom: 2px dotted;
 }
 
-a.category-bio:hover {
-  color: #036303;
+.category-biology {
+  color: #4E8C02;
 }
 
-a.category-ea:hover {
-  color: #0c869b;
+.category-events {
+  color: #0d8ba1;
 }
 
-a.category-eng:hover {
-  color: #721a60;
+.category-making, .category-comms {
+  color: #8A0038;
+}
+
+.category-misc {
+  color: rgb(130, 130, 130);
 }
 
 .no-fouc {
   display: none;
 }
 
-ul {
-  list-style-type: square;
+ul.no-bullets {
+  list-style-type: none;
+  padding-inline-start: 0px;
 }
 
 ul ul {
-  font-size: 0.9em;
+  font-size: 0.95rem;
+  list-style-type: square;
 }
