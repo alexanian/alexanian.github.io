@@ -37,11 +37,11 @@ a:hover {
   border-bottom: 2px dotted;
 }
 
-.category-biology {
+.category-bio {
   color: #4E8C02;
 }
 
-.category-events {
+.category-events, .category-eng {
   color: #0d8ba1;
 }
 
