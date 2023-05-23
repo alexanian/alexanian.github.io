@@ -1,0 +1,15 @@
+# Duplicate about page
+
+    # Get content over to the side, where I want it
+
+# Duplicate Zach page (more complicated!)
+
+    header_pages:
+
+    - about.md
+    - notes.md
+    - contact.md
+
+# Duplicate frontpage
+
+# Define header_pages

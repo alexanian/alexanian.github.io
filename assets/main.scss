@@ -1,0 +1,142 @@
+---
+---
+
+// Overriding values from  Minima
+$base-font-family: "Roboto Condensed";
+$content-width: 1140px;
+
+@import "{{ site.theme }}";
+
+// Setting some of my own variables
+$text: #16161D;
+$grey: #81818d; //#8C979A; //#636363;
+
+body {
+    color: $text;
+}
+
+  h1,
+  h2,
+  h3,
+  .links-list,
+  .links-list a {
+    font-family: "VT323", monospace;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+    
+  h1 {
+    font-size: 2rem;
+  }
+    
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+    
+  .links-list {
+    font-size: 1.3rem;
+
+    a {
+      &:visited {
+          color: $grey;
+      }
+
+      &:hover {
+          color: $text;
+      }
+    }
+  }
+    
+  .jumbotron {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 0px;
+  }
+
+  .site-header {
+    border: none;
+  }
+
+  .site-footer {
+    border: none;
+  }
+  
+
+  .site-nav {
+    float: left;
+
+    .page-link {
+        color: $grey;
+    }
+}
+
+//    Links
+
+  a {
+    color: $grey;
+    font-weight: bold;
+
+    &:hover {
+      color: $text;
+      text-decoration: none;
+      border-bottom: 2px dotted;
+    }
+  }
+   
+
+//    Lists
+  ul {
+    &.no-bullets {
+      list-style-type: none;
+      padding-inline-start: 0px;
+    }
+
+    ul {
+      font-size: 0.95rem;
+      list-style-type: square;
+    }
+  }
+
+//    Text
+  .longform-text-container {
+    margin-top: 4rem;
+    font-size: 1.3rem;
+  }
+    
+  p.caption {
+    font-size: 1rem;
+  }
+    
+  blockquote {
+    margin: 0 0.5rem 1rem;
+    padding: 0 1rem 0;
+    border-left: 3px solid rgb(130, 130, 130);
+  }
+
+  
+//    Colours
+  .category-bio {
+    color: #4e8c02;
+  }
+    
+  .category-events,
+  .category-eng {
+    color: #0d8ba1;
+  }
+    
+  .category-making,
+  .category-comms {
+    color: #8a0038;
+  }
+    
+  .category-misc {
+    color: $grey;
+  }
+
+// Grid layout
+
+.wrapper
+{
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+}
